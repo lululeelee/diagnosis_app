@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">自動診斷app</string>
+    <string name="btn_hospital">附近醫院</string>
+    <string name="btn_calendar">健康日記</string>
+    <string name="btn_start">開始診斷</string>
+    <string name="btn_alarm">吃藥提醒</string>
+
+    string for layout_condition
+    <string name="temp_name">溫度(°C):</string>
+    <string name="temp_edit">°C</string>
+    <string name="blood_pressure">血壓：</string>
+    <string name="blood_high">bp(high)</string>
+    <string name="blood_low">bp(low)</string>
+    <string name="symp_edit">症狀：</string>
+    <string name="other_name">其他：</string>
+    <string name="other_edit">其他事項</string>
+    <string name="save_button">Save</string>
+    <string name="clear_button">Clear</string>
+
+    <string-array name="sysptoms">
+        <item>Shivam</item>
+        <item>Shiv</item>
+        <item>Moxit</item>
+        <item>Baha</item>
+        <item>Singa</item>
+        <item>Moffy</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_alarm_list2">alarm_list2</string>
+    <string name="title_activity_news">news</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

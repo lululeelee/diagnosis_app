@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="@color/main_title_color"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/view_news"
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="-1"
+            android:singleLine="true"
+            />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="264dp"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/dr_droid"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="15dp" />
+
+        <Button
+
+            android:id="@+id/Button01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/alert_dark_frame"
+            android:text="@string/btn_start"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="393dp" />
+
+        <Button
+            android:id="@+id/Button02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/alert_dark_frame"
+            android:text="@string/btn_hospital"
+            android:textColor="@android:color/background_light"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="394dp" />
+
+        <Button
+            android:id="@+id/Button03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/alert_dark_frame"
+            android:text="@string/btn_calendar"
+            android:textColor="@android:color/background_light"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="258dp"
+            tools:layout_editor_absoluteY="391dp" />
+
+        <Button
+            android:id="@+id/Button04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_alarm"
+            android:background="@android:drawable/alert_dark_frame"
+            android:textColor="@android:color/background_light"
+            tools:layout_editor_absoluteX="63dp"
+            tools:layout_editor_absoluteY="502dp" />
+    </TableLayout>
+
+
+</android.support.constraint.ConstraintLayout>
